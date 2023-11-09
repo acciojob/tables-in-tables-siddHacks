@@ -9,9 +9,10 @@
   <body>
     <table class="maintable" style="width: 100%; height: 100%">
       <!-- Your code here -->
-		<div id="maindiv">
-			<div id="tab2">
-			 <table id="table2">
+		<thead>
+			<tr>
+			<th>
+				<table id="table2">
 			  <thead id="the">
 				<tr>
 					<th colspan="2">Nested Table 2</th>
@@ -28,9 +29,9 @@
 				</tr>
 			</tbody>
 		</table>
-			</div>
-		<div>
-			<table id="table1">
+			</th>
+			<th>
+				<table id="table1">
 			<thead>
 				<tr>
 					<th>Nested Table 1</th>
@@ -48,23 +49,27 @@
 				</tr>
 			</tbody>
 		</table>
-		</div>
-			<div>
-				<table id ="table3">
+			</th>
+	     </tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<table id ="table3">
 				<thead>
 					<tr>
 						<th colspan="2">Nested Table 3</th>
 					</tr>
 					<tr>
-						<th><a href="">Nested Table</a></th>
-						<th>Demo Continued</th>
+						<td><a href="">Nested Table</a></td>
+						<td>Demo Continued</td>
 					</tr>
 				</thead>
 				<tbody></tbody>
 			</table>
-		   </div>	
-			<div>
-			<table>
+				</td>
+				<td>
+					<table>
 				<thead>
 					<tr>
 						<th>Nested Table 4</th>
@@ -76,8 +81,9 @@
 					</tr>
 				</tbody>
 			</table>
-		</div>
-		</div>	
+				</td>
+			</tr>
+		</tbody>	 		
     </table>
   </body>
 </html>
