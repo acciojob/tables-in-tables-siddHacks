@@ -1,2 +1,17 @@
+div,table ,tr ,th ,td{
+	border: 1px solid black;
+	text-align: center;
+}
+div{
+	display:inline-flex;
+}
+#maintable {
+   height:250px
+}
 
-/* Your CSS Code here. */
+
+
+
+
+
+

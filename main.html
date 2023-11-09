@@ -7,8 +7,77 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+    <table class="maintable" style="width: 100%; height: 100%">
       <!-- Your code here -->
+		<div id="maindiv">
+			<div id="tab2">
+			 <table id="table2">
+			  <thead id="the">
+				<tr>
+					<th colspan="2">Nested Table 2</th>
+				</tr>
+				<tr>
+					<th>Column 1</th>
+					<th>Column 2</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>abc</td>
+					<td>def</td>
+				</tr>
+			</tbody>
+		</table>
+			</div>
+		<div>
+			<table id="table1">
+			<thead>
+				<tr>
+					<th>Nested Table 1</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+				       <ul>
+					     <li>List item 1</li>
+					     <li>List item 2</li>
+					     <li>List item 3</li>
+				      </ul>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+			<div>
+				<table id ="table3">
+				<thead>
+					<tr>
+						<th colspan="2">Nested Table 3</th>
+					</tr>
+					<tr>
+						<th><a href="">Nested Table</a></th>
+						<th>Demo Continued</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		   </div>	
+			<div>
+			<table>
+				<thead>
+					<tr>
+						<th>Nested Table 4</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td id ="table4_td">HTML</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		</div>	
     </table>
   </body>
 </html>
